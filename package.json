@@ -2,7 +2,7 @@
   "name": "vue-tsx-webpack",
   "version": "0.0.1",
   "scripts": {
-    "postinstall": "del -f .husky && husky install && husky add .husky/pre-commit \"npx run-p lint-staged\"",
+    "postinstall": "del -f .husky && husky install && husky add .husky/pre-commit \"npm run lint-staged\"",
     "start": "vue-cli-service serve",
     "build": "run-p type-check build-only",
     "build-only": "vue-cli-service build",
