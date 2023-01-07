@@ -24,5 +24,6 @@ module.exports = defineConfig({
   devServer: {
     port: 8848,
   },
-  transpileDependencies: true,
+  productionSourceMap: false,
+  transpileDependencies: [/node_modules/],
 });

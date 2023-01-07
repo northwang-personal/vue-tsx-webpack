@@ -33,5 +33,5 @@
     "editor.defaultFormatter": "stylelint.vscode-stylelint"
   },
 
-  "cSpell.words": ["esno"]
+  "cSpell.words": ["corejs", "esno"]
 }
